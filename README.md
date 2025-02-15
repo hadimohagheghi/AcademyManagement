@@ -1,2 +1,1 @@
 # AcademyManagement
-# test
