@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mh.rohiamini\\source\\repos\\AcademyManagement\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Afarinesh\\Academy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|d:\\afarinesh\\academy\\command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\student\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|solutionrelative:command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\student\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F28B2C9-276F-4F2C-BC69-C547CA178960}|command\\src\\1.Core\\AcademyManagement.Core.Domain\\AcademyManagement.Core.Domain.csproj|d:\\afarinesh\\academy\\command\\src\\1.core\\academymanagement.core.domain\\student\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F28B2C9-276F-4F2C-BC69-C547CA178960}|command\\src\\1.Core\\AcademyManagement.Core.Domain\\AcademyManagement.Core.Domain.csproj|solutionrelative:command\\src\\1.core\\academymanagement.core.domain\\student\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|d:\\afarinesh\\academy\\command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\common\\academymanagementcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|solutionrelative:command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\common\\academymanagementcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74DCF1F-6E80-4C8C-B602-634689EDA6C2}|command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\AcademyManagement.Endpoints.Api.csproj|d:\\afarinesh\\academy\\command\\src\\3.endpoints\\academymanagement.endpoints.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74DCF1F-6E80-4C8C-B602-634689EDA6C2}|command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\AcademyManagement.Endpoints.Api.csproj|solutionrelative:command\\src\\3.endpoints\\academymanagement.endpoints.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,51 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
+              "RelativeDocumentMoniker": "command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
+              "RelativeToolTip": "command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:35:45.133Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AcademyManagementCommandDbContext.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Common\\AcademyManagementCommandDbContext.cs",
+              "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Common\\AcademyManagementCommandDbContext.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Common\\AcademyManagementCommandDbContext.cs",
+              "RelativeToolTip": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Common\\AcademyManagementCommandDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:28:20.541Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentConfiguration.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "RelativeToolTip": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:27:59.06Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\Program.cs",
+              "RelativeDocumentMoniker": "command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\Program.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\Program.cs",
+              "RelativeToolTip": "command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:25:52.459Z",
+              "EditorCaption": ""
             }
           ]
         }
