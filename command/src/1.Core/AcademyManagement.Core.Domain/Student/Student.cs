@@ -22,7 +22,9 @@ namespace AcademyManagement.Core.Domain.Student
 
 
         public string UniqueIdentifier { get; set; }
-
+        //key
+        public Guid CourseId { get; set; }
+        public Course.Course Course { get; set; }
 
         //todo
     }

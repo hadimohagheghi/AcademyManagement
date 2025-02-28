@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{5F28B2C9-276F-4F2C-BC69-C547CA178960}|command\\src\\1.Core\\AcademyManagement.Core.Domain\\AcademyManagement.Core.Domain.csproj|solutionrelative:command\\src\\1.core\\academymanagement.core.domain\\student\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F28B2C9-276F-4F2C-BC69-C547CA178960}|command\\src\\1.Core\\AcademyManagement.Core.Domain\\AcademyManagement.Core.Domain.csproj|d:\\afarinesh\\academy\\command\\src\\1.core\\academymanagement.core.domain\\course\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F28B2C9-276F-4F2C-BC69-C547CA178960}|command\\src\\1.Core\\AcademyManagement.Core.Domain\\AcademyManagement.Core.Domain.csproj|solutionrelative:command\\src\\1.core\\academymanagement.core.domain\\course\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|d:\\afarinesh\\academy\\command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\course\\courseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|solutionrelative:command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\course\\courseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|d:\\afarinesh\\academy\\command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\academymanagement.infrastructures.data.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|solutionrelative:command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\academymanagement.infrastructures.data.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|d:\\afarinesh\\academy\\command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\common\\academymanagementcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DAB1B74-5B91-461B-870E-8502B916A69F}|command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj|solutionrelative:command\\src\\2.infrastructures\\data\\academymanagement.infrastructures.data.sqlserver\\common\\academymanagementcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,12 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,14 +48,70 @@
               "RelativeDocumentMoniker": "command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
               "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
               "RelativeToolTip": "command\\src\\1.Core\\AcademyManagement.Core.Domain\\Student\\Student.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAowBgAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:35:45.133Z",
+              "WhenOpened": "2025-02-28T09:14:59.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseConfiguration.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Course\\CourseConfiguration.cs",
+              "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Course\\CourseConfiguration.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Course\\CourseConfiguration.cs",
+              "RelativeToolTip": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Course\\CourseConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:10:26.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\1.Core\\AcademyManagement.Core.Domain\\Course\\Course.cs",
+              "RelativeDocumentMoniker": "command\\src\\1.Core\\AcademyManagement.Core.Domain\\Course\\Course.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\1.Core\\AcademyManagement.Core.Domain\\Course\\Course.cs",
+              "RelativeToolTip": "command\\src\\1.Core\\AcademyManagement.Core.Domain\\Course\\Course.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:07:02.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentConfiguration.cs",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "RelativeToolTip": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAcwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:27:59.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AcademyManagement.Infrastructures.Data.SqlServer",
+              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj",
+              "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj",
+              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj",
+              "RelativeToolTip": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\AcademyManagement.Infrastructures.Data.SqlServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-28T09:09:36.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AcademyManagementCommandDbContext.cs",
               "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Common\\AcademyManagementCommandDbContext.cs",
               "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Common\\AcademyManagementCommandDbContext.cs",
@@ -60,20 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentConfiguration.cs",
-              "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
-              "RelativeDocumentMoniker": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
-              "ToolTip": "D:\\Afarinesh\\Academy\\command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
-              "RelativeToolTip": "command\\src\\2.Infrastructures\\Data\\AcademyManagement.Infrastructures.Data.SqlServer\\Student\\StudentConfiguration.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAcwB4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:27:59.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Afarinesh\\Academy\\command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\Program.cs",
               "RelativeDocumentMoniker": "command\\src\\3.Endpoints\\AcademyManagement.Endpoints.Api\\Program.cs",

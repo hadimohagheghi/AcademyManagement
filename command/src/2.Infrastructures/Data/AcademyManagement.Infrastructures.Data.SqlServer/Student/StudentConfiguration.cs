@@ -34,6 +34,12 @@ namespace AcademyManagement.Infrastructures.Data.SqlServer.Student
             //Concurrency
             //shadow Property
             //...
+
+
+            //key
+            builder.HasOne(c => c.Course)
+                .WithMany(s => s.Students)
+                .HasForeignKey(p => p.CourseId);
         }
     }
 }
