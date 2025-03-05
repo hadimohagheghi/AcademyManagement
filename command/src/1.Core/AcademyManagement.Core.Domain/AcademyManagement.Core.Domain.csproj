@@ -7,10 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Class\" />
-    <Folder Include="Grade\" />
-    <Folder Include="Payment\" />
-    <Folder Include="Teacher\" />
+    <Compile Remove="Grade\**" />
+    <EmbeddedResource Remove="Grade\**" />
+    <None Remove="Grade\**" />
   </ItemGroup>
 
 </Project>
