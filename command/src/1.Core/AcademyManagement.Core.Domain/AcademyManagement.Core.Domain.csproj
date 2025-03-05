@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Course\" />
     <Folder Include="Class\" />
-    <Folder Include="Attendance\" />
     <Folder Include="Grade\" />
     <Folder Include="Payment\" />
     <Folder Include="Teacher\" />
