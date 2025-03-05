@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AcademyManagement.Core.Domain.Attendance
+namespace AcademyManagement.Core.Domain.Payments
 {
-    public class Attendance
+    public class Payments
     {
         public Guid Id { get; set; }
         public Guid StudentID { get; set; }
         public Guid ClassID { get; set; }
-        public DateTime Date { get; set; }
-        public bool Status { get; set; }
+        public DateTime PaymentDate { get; set; }
+        public double PaidAmount { get; set; }
     }
 }
