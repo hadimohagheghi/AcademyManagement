@@ -8,18 +8,21 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AcademyManagement.Infrastructures.Data.SqlServer.Student
 {
-    public class StudentConfiguration : IEntityTypeConfiguration<Core.Domain.Student.Student>
+    public class StudentConfiguration : IEntityTypeConfiguration<Core.Domain.Students.Students>
     {
-        public void Configure(EntityTypeBuilder<Core.Domain.Student.Student> builder)
+        public void Configure(EntityTypeBuilder<Core.Domain.Students.Students> builder)
         {
             builder.HasKey(p => p.Id);
             builder.Property(p => p.FirstName).IsRequired().HasMaxLength(100);
-            builder.Property(p => p.Age)
-                .HasColumnType("decimal(18,2)");
-            builder.Property(c => c.CreateDate)
-                .HasDefaultValueSql("GETDATE()");
-            builder.Property(p => p.IsActive)
-                .HasDefaultValue(true);
+            builder.Property(p => p.LastName).IsRequired().HasMaxLength(100);
+            builder.Property(p => p.DateOfBirth).IsRequired();
+            builder.Property(p => p.Gender).IsRequired();
+            builder.Property(p => p.PhoneNumber).IsRequired();
+            builder.Property(p => p.ParentName).IsRequired();
+            builder.Property(p => p.ParentPhoneNumber).IsRequired();
+            builder.Property(p => p.Status).HasDefaultValue(true);
+            //builder.Property(p => p.Age)
+            //    .HasColumnType("decimal(18,2)");
 
             //تنظیمات پایه ای
             //مقادیر محاسباتی

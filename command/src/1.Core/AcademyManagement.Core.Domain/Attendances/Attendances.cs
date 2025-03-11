@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AcademyManagement.Core.Domain.Attendance
 {
-    public class Attendance
+    public class Attendances
     {
         public Guid Id { get; set; }
         public Guid StudentID { get; set; }

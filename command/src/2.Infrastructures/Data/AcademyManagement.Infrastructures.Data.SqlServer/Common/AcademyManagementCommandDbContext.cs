@@ -17,7 +17,7 @@ namespace AcademyManagement.Infrastructures.Data.SqlServer.Common
         }
 
 
-        DbSet<Core.Domain.Attendance.Attendance> Attendance { get; set; }
+        DbSet<Core.Domain.Attendances.Attendances> Attendances { get; set; }
         DbSet<Core.Domain.ClassEnrollments.ClassEnrollments> ClassEnrollments { get; set; }
         DbSet<Core.Domain.Classes.Classes> Classes { get; set; }
         DbSet<Core.Domain.Expenses.Expenses> Expenses { get; set; }
