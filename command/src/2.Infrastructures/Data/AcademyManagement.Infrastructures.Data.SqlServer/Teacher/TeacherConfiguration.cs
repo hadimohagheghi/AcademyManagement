@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AcademyManagement.Core.Domain.Student;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -20,6 +21,11 @@ namespace AcademyManagement.Infrastructures.Data.SqlServer.Teacher
             builder.Property(p => p.PhoneNumber).IsRequired();
             builder.Property(p => p.Specialization).IsRequired();
             builder.Property(p => p.Status).HasDefaultValue(true);
+
+            builder.HasOne(s => s.Students)
+                .WithOne(t => t.Teachers)
+                .HasForeignKey<Students>(a => a.TeacherId);
+
         }
     }
 }

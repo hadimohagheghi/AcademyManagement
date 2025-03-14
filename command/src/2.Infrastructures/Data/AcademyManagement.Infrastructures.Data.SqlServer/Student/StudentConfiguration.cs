@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AcademyManagement.Core.Domain.Teachers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -26,10 +27,10 @@ namespace AcademyManagement.Infrastructures.Data.SqlServer.Student
 
             //تنظیمات پایه ای
             //مقادیر محاسباتی
-            builder.Property(p => p.Quantity)
+           /* builder.Property(p => p.Quantity)
                 .IsRequired();
             builder.Property(p => p.TotalPrice)
-                .HasComputedColumnSql("[Quantity] * [Price]");
+                .HasComputedColumnSql("[Quantity] * [Price]");*/
             //تولید کننده مقدار
             //Value Generator
 
@@ -40,9 +41,23 @@ namespace AcademyManagement.Infrastructures.Data.SqlServer.Student
 
 
             //key
-            builder.HasOne(c => c.Course)
+            builder.HasOne(c => c.Classes)
                 .WithMany(s => s.Students)
-                .HasForeignKey(p => p.CourseId);
+                .HasForeignKey(p => p.CalssId);
+
+            /*/
+            builder.HasMany(t=>t.Teachers)
+                .WithMany(st=>st.Students)
+                .UsingEntity<aaa>(
+                    
+                    )
+                */
+
+            builder.HasOne(s => s.Teachers)
+                .WithOne(t => t.Students)
+                .HasForeignKey<Teachers>(a => a.StudentId);
+
+
         }
     }
 }

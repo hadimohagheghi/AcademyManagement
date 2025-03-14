@@ -31,5 +31,13 @@ namespace AcademyManagement.Core.Domain.Student
         //key
         //public Guid CourseId { get; set; }
         //public Course.Course Course { get; set; }
+        public Guid CalssId { get; set; }
+        public Classes.Classes Classes { get; set; }
+
+        public Teachers.Teachers Teachers { get; set; }
+
+        public Guid TeacherId { get; set; }
+        //public ICollection<Teachers.Teachers> Teachers { get; set; }
+
     }
 }
