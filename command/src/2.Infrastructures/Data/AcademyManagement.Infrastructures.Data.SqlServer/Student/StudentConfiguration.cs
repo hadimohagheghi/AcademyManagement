@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AcademyManagement.Infrastructures.Data.SqlServer.Student
 {
-    public class StudentConfiguration : IEntityTypeConfiguration<Core.Domain.Students.Students>
+    public class StudentConfiguration : IEntityTypeConfiguration<Core.Domain.Student.Students>
     {
-        public void Configure(EntityTypeBuilder<Core.Domain.Students.Students> builder)
+        public void Configure(EntityTypeBuilder<Core.Domain.Student.Students> builder)
         {
             builder.HasKey(p => p.Id);
             builder.Property(p => p.FirstName).IsRequired().HasMaxLength(100);
